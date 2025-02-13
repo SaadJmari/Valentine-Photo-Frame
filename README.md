@@ -1,4 +1,4 @@
-# valentine-gift
+# Valentine’s Photo Frame
 This is a fun and interactive web project where users can upload a photo, decorate it with animated elements like hearts, bows, and Hello Kitty icons, and download the final image as a keepsake
 
 # Features
