@@ -40,7 +40,7 @@
 </head>
 <body>
     <h2>Valentine’s Photo Frame</h2>
-    <audio id="bg-music" autoplay loop>
+    <audio id="bg-music" loop>
         <source src="audio/FeelSpecial.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
@@ -53,6 +53,7 @@
         <button onclick="addDecoration('images/bow.png')">🎀 Bow</button>
         <button onclick="addDecoration('images/hello-kitty.png')">🐱 Hello Kitty</button>
         <button onclick="downloadImage()">📥 Download</button>
+        <button onclick="document.getElementById('bg-music').play()">🎵 Play Music</button>
     </div>
     <script>
         document.getElementById("upload").addEventListener("change", function(event) {
